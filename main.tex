@@ -1,0 +1,101 @@
+% !TeX program = lualatex
+
+\documentclass{cvhub}
+
+\title{resume}
+\author{yanik-thurner}
+\profilepicture{images/pp.jpg}
+\portrait{images/image.jpg}
+\website{https://thurner.dev}{thurner.dev}
+
+\begin{document}
+\maketitle
+\makebody{
+\filetable{
+    \filetableHeader{\getprofilepicture}{yanik-thurner}{Visual Computing BSc @ TUWien}{\checkmark}{3f1a5af}{3 years ago}{1,234}
+}{
+    \filetableEntry{file.png}{name.txt}{Yanik Gabor Thiemo Thurner}{27 years ago}
+    \filetableEntry{file.png}{birthday.txt}{I probably shouldn't publish that}{27 years ago}
+    \filetableEntry{file.png}{phone.txt}{That one as well i guess}{just now}
+    \filetableEntry{file.png}{mail.txt}{yanik@thurner.dev}{just now}
+    \filetableEntry{file.png}{README.md}{Fixed some typos}{just now}[no-line]
+}
+
+\readmebox{
+\sectionLeft{Education}{
+    \checkEntry{2}{1}{\textbf{2020-2022}: TU Wien - Master Visual Computing (without degree)}
+    \checkEntry{2}{2}{Advanced Computer Graphics}
+    \checkEntry{2}{2}{Advanced Computer Vision}
+    \checkEntry{2}{2}{AI for Visual Computing}
+    \checkEntry{2}{2}{Virtual and Augmented Reality}
+    \checkEntry{1}{1}{\textbf{2016-2020}: TU Wien - Bachelor Media Informatics and Visual Computing}
+    \checkEntry{1}{2}{Security}
+    \checkEntry{1}{2}{Computer supported Japanese}
+    \checkEntry{1}{2}{Thesis: Feature Detection of Drawn Characters}
+    \hspace*{2.25cm}for Automatic Dataset Creation\\
+    \checkEntry{1}{1}{\textbf{2011-2015}: HTL Spengergasse - Computer Science}
+    \checkEntry{1}{2}{Intelligent Systems}
+}
+\sectionLeft{Professional Experience}{
+    \checkEntry{1}{1}{\textbf{2016}: Diakonie Refugee Service - First-Level IT Support}
+    \checkEntry{1}{1}{\textbf{2015-2016}: Diakonie Refugee Service - Civil Servant First-Level IT Support}
+    \checkEntry{1}{1}{\textbf{2013}: CoolIT - Internship Software Developer}
+    \checkEntry{1}{1}{\textbf{2012}: OeNB Austrian Central Bank IT - Internship DevOps}
+}
+\sectionLeft{Awards \hfill Certifications}{
+    \begin{tabularx}{\linewidth}{@{\hspace{0mm}}p{0.5\linewidth} | p{0.5\linewidth}}
+    \emoji{sports-medal}\textbf{GCER 2014}: Best Programming &  \emoji{scroll} \textbf{Cisco CCNA}: 1-4 (Expired)\\
+    \emoji{sports-medal}\textbf{ECER 2014}: 1. Platz Seeding  Rounds & \emoji{scroll} \textbf{Cisco CCNA}: Security (Expired)\\
+    \emoji{sports-medal}\textbf{ECER 2014}: 2. Platz Overall &  \\
+    \emoji{sports-medal}\textbf{ECER 2014}: "Judge's Choice" & \\
+    \emoji{sports-medal}\textbf{ECER 2013}: 1. Platz Alliance Matches & \\
+    \end{tabularx}\newline
+    \tiny $^{*}$Global Conference on Educational Robotics; European Conference on Educational Robotics\\
+}
+\sectionLeft{Hobbies and Special Skills}{
+    \begin{tabularx}{\linewidth}{@{\hspace{0mm}}p{0.5\linewidth} | p{0.5\linewidth}}
+    \emoji{guitar} Bass Guitar & \emoji{rock} Bouldering\\
+    \emoji{flexed-biceps} Lifting weights & \emoji{keyboard} Homelab \& System Administration \\
+    \emoji{dog} Dog training & \emoji{smiling-face-with-sunglasses} I can exit vi \\
+    \emoji{yarn} Knitting & \emoji{tulip} Yin Yoga \\
+    \end{tabularx}
+}
+}
+}{
+\sectionRight{Skills}{
+    \begin{sortedBubbles}
+        \sBubble{ansible}[https://www.ansible.com/]
+        \sBubble{android}[https://www.android.com/]
+        \sBubble{proxmox}[https://www.proxmox.com/en/proxmox-ve]
+        \sBubble{latex}[https://www.latex-project.org/]
+        \sBubble{linux}[https://www.linux.org/]
+        \sBubble{opnSense}[https://opnsense.org/]
+        \sBubble{docker}[https://docs.docker.com/engine/]
+        \sBubble{openWRT}[https://openwrt.org/]
+        \sBubble{git}[https://git-scm.com/]
+        \sBubble{mail}[https://mailcow.email/]
+        \sBubble{gimp}[https://www.gimp.org/]
+        \sBubble{openGL}[https://www.opengl.org/]
+        \sBubble{sql}[https://www.sqlite.org/index.html]
+        \sBubble{wireshark}[https://www.wireshark.org/]
+        \sBubble{openCV}[https://opencv.org/]
+        \sBubble{network}[https://en.wikipedia.org/wiki/OSI_model]
+        \sBubble{numpy}[https://numpy.org/]
+        \sBubble{pytorch}[https://pytorch.org/]
+    \end{sortedBubbles}
+}
+\sectionRight{Contributors \numberBubble{1}}{
+    \begin{center}
+        \roundImage{images/knopf.jpg}{3cm}
+    \end{center}
+}
+\sectionRight{Languages}{
+    \progressbar{German}{5}{5}[IndianRed1]
+    \progressbar{English}{4}{5}[LightGoldenrod1]
+    \progressbar{Japanese}{1}{5}[SkyBlue1]
+    \progressbar{C++}{2}{5}[PaleGreen1]
+    \progressbar{Java}{3}{5}[Coral1]
+    \progressbar{JavaScript}{1}{5}[Gold1]
+    \progressbar{Python}{3}{5}[MediumPurple1]
+}}
+\end{document}
