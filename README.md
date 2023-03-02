@@ -13,7 +13,7 @@ The usage is simple, since most of the technical stuff is inside the class file.
     - **\\portrait{image\_path}**: path to the headshot that is displayed in the right column.
     - **\\website{website_link}{website_name}**: The link to a website, which is displayed under the portrait.
 - **\\maketitle**: Creates the black GitHub menu on top of the site, as well as the space below containing the repository name and action buttons.
-- **\\makebody{left\_column}{right_\column}**: Builds the main body with two columns, a bigger left one for the files and the README and a smaller right one for the portrait and other infos.
+- **\\makebody{left\_column}{right\_column}**: Builds the main body with two columns, a bigger left one for the files and the README and a smaller right one for the portrait and other infos.
 - **\\filetable{header}{file\_entries}**: Builds the file table. I used it for the most important information like name and contact data. 
 - **\\filetableHeader{profile\_picture}{commit\_author}{commit\_text}{commit\_test\_symbol}{commit\_hash}{commit\_time}{commit\_count}**: Like on GitHub, this displays the latest commit. I used it to display my latest finished degree.
 - **\\filetableEntry{icon\_path}{file\_name}{commit\_text}{commit\_time}**: A single row in the filetable.
