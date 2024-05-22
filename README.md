@@ -3,8 +3,6 @@ A resume in the style of a GitHub repository.
 
 ![example image](https://github.com/yanik-thurner/resume/blob/main/images/example.png?raw=true)
 
-For now I won't publish the class file, at least until I get my first job, in case of the unlikely event that we apply for the same one. So this repo should just demonstrate that I can do LaTeX and built the CV myself. Here is a little bit of documentation.
-
 The usage is simple, since most of the technical stuff is inside the class file. The following commands are relevant:
 - Setting the important variables:
     - **\\title{repository\_name}**: The name of the repository that is displayed.
