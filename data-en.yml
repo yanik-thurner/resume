@@ -1,0 +1,151 @@
+personal:
+  public: true
+  names:
+    first_names: 
+      - Yanik
+    middle_names: 
+      - Gabor
+      - Thiemo
+    last_names:
+      - Thurner
+  birthdate: "-"
+  phone: "-"
+  mail: "yanik@thurner.dev"
+  website: "thurner.dev"
+  location: "-"
+  languages:
+    - "German"
+    - "English"
+  portrait: "/images/image2.jpg"
+  role: Software Engineer
+  skills:
+    - Android
+    - Arc42
+    - Bash
+    - C++
+    - CI/CD
+    - Docker
+    - Java
+    - JavaScript
+    - Jira
+    - Linux
+    - Nix
+    - OpenAPI
+    - OpnSense
+    - PHP
+    - Proxmox
+    - Python
+    - Rust
+    - Scrum
+    - Software Architecture
+    - Symfony
+    - System Administration
+    - Vim
+    - Wireshark
+  motto: >
+    I'm a programmer who believes that writing clean code and good system designs are the foundation for building a successful application. 
+    However, writing quality code is only half the battle. 
+    Communicating your ideas with the team and stakeholders, and being able to adapt based on their feedback, is just as important, if not more so.
+
+
+employment:
+  history:
+    - company: "world4you"
+      link: "https://www.world4you.com/"
+      color_bg: "#5232db"
+      color_fg: "#faf9fe"
+      positions:
+        - {from: "Mar 2025", to: "Jul 2025", title: "Specialist Software Engineer"}
+        - {from: "Mar 2023", to: "Mar 2025", title: "Software Engineer"}
+      skills: ["Docker", "Jira", "Linux"]
+      responsibilities: # list or string
+        - initiative: "Modularization Team - 2 Persons"
+          technologies: ["PHP", "Symfony", "Python", "MySQL"]
+          tasks:
+            - "Analyzing architectural and quality requirements"
+            - "Visualizing the structure of the code base"
+            - "Defining the target architecture"
+            - "Breaking up the monolith"
+        - initiative: "Webserver Software Team - 3 Persons"
+          technologies: ["Bash", "GitLab CI/CD", "Linux", "Python", "SQLite"]
+          tasks:
+            - "Maintaining the software that powers the shared-hosting platform"
+            - "Redesigning the build and release process"
+        - initiative: "Backend Development Team - 12 Persons"
+          technologies: ["PHP", "OpenAPI", "MySQL"]
+          tasks:
+            - "Advancing features through all phases of the Software Development Lifecycle"
+            - "Designing and implementing APIs"
+            - "Reviewing Merge Requests"
+            - "On-boarding of colleagues"
+    - company: "Diakonie Refugee Service"
+      link: "https://www.diakonie.at/ueber-uns/traeger-diakonischer-arbeit/diakonie-eine-welt/diakonie-fluechtlingsdienst"
+      color_bg: "#05a1e4"
+      color_fg: "#fefefe"
+      positions:
+        - {from: "Jan 2017", to: "Apr 2017", title: "First-Level IT Support"}
+        - {from: "Dec 2015", to: "Aug 2016", title: "Civil Servant First-Level IT Support"}
+      responsibilities: 
+        - initiative: "IT Department - 9 Persons"
+          technologies: ["Windows", "Windows Server", "Linux Server"] 
+          tasks:
+            - "IT support for all Diakonie refugee homes in Austria"
+            - "Occasionally I performed Second-Level tasks too."
+
+projects:
+  - name: "Homelab"
+    link: null
+    description: "Selfhosting some of my websites, mailserver, password manager and many other services, because why do it the easy way when you can battle DNS settings."
+    technologies: ["ansible", "bash", "docker", "ipv6", "Linux", "openWRT", "opnSense", "proxmox", "wireshark"]
+  - name: "yanik-thurner/nvim-copy-mode"
+    link: "https://github.com/yanik-thurner/nvim-copy-mode"
+    description: "A tmux plugin that replaces the default copy-mode with a neovim terminal. It allows for the usage of all vim movements."
+    technologies: ["tmux", "bash", "lua"]
+  - name: "yanik-thurner/anno-chan"
+    link: "https://github.com/yanik-thurner/anno-chan"
+    description: "A program developed as a part of my bachelor thesis. It is an annotation tool with the ability to integrate and evaluate PyTorch object detection models. Thus being able to expose the shortcomings and adapting network and dataset iteratively."
+    technologies: ["Python", "PyTorch", "Qt"]
+  - name: "yanik-thurner/farm4money"
+    link: "https://github.com/yanik-thurner/farm4money"
+    description: "A 3D farming simulator game that was developed as part of the “Computer Graphics” lecture at TU Vienna."
+    technologies: ["C++", "GLSL", "OpenGL"]
+  #- name: "yanik-thurner/bevy_roguelike"
+  #  link: "https://github.com/yanik-thurner/bevy_roguelike"
+  #  description: "A 2D roguelike dungeon-crawler game written in Rust. You can walk around and hit enemies or walls. Yay!"
+  #  technologies: ["Bevy ECS", "Rust"]
+  #- name: "yanik-thurner/moa"
+  #  link: "https://github.com/yanik-thurner/moa"
+  #  description: "“Maps of Anime”, moa for short, is a reimplementation of the “Maps of Computer Science” Program by Fried et al., to visualize the relationships of genres of japanese animations."
+  #  technologies: ["D3.js", "JavaScript", "Numpy", "Pandas", "Python"]
+
+education:
+  history:
+    - institution: "TU Vienna"
+      link: "https://www.tuwien.at/en/"
+      program: "(Master Visual Computing)"
+      degree: "without degree"
+      from: "2020"
+      to: "2022"
+    - institution: "TU Vienna"
+      link: "https://www.tuwien.at/en/"
+      program: "Bachelor Media Informatics and Visual Computing"
+      degree: "BSc."
+      from: "2016"
+      to: "2020"
+    - institution: "HTL Spengergasse"
+      link: "https://www.spengergasse.at/"
+      program: "Computer Science"
+      degree: "Matura"
+      from: "2011"
+      to: "2015"
+
+certification:
+  - name: "iSAQB"
+    level: "Foundation"
+    description: "Certified Professional for Software Architecture"
+  - name: "Cisco CCNA (Expired)"
+    level: "1-4"
+    description: "Cisco Certified Network Associate"
+  - name: "Cisco CCNA (Expired)"
+    level: "Security"
+    description: "Cisco Certified Network Associate"

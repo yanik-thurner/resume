@@ -1,0 +1,151 @@
+personal:
+  public: true
+  names:
+    first_names:
+      - Yanik
+    middle_names:
+      - Gabor
+      - Thiemo
+    last_names:
+      - Thurner
+  birthdate: "-"
+  phone: "-"
+  mail: "yanik@thurner.dev"
+  website: "thurner.dev"
+  location: "-"
+  languages:
+    - "Deutsch"
+    - "Englisch"
+  portrait: "/images/image2.jpg"
+  role: Software Entwickler
+  skills:
+    - Android
+    - Arc42
+    - Bash
+    - C++
+    - CI/CD
+    - Docker
+    - Java
+    - JavaScript
+    - Jira
+    - Linux
+    - Nix
+    - OpenAPI
+    - OpnSense
+    - PHP
+    - Proxmox
+    - Python
+    - Rust
+    - Scrum
+    - Software Architecture
+    - Symfony
+    - System Administration
+    - Vim
+    - Wireshark
+  motto: >
+    Ich bin ein Programmierer, der davon überzeugt ist, dass sauberer Code und gute Systemdesigns die Grundlage für die erfolgreiche Entwicklung sind.
+    Allerdings ist das Schreiben von qualitativ hochwertigem Code nur die halbe Miete.
+    Die Kommunikation deiner Ideen mit dem Team und den Stakeholdern sowie die Fähigkeit, sie basierend auf deren Feedback anzupassen, sind genauso wichtig, wenn nicht sogar wichtiger.
+
+
+employment:
+  history:
+    - company: "world4you"
+      link: "https://www.world4you.com/"
+      color_bg: "#5232db"
+      color_fg: "#faf9fe"
+      positions:
+        - {from: "Mär 2025", to: "Jul 2025", title: "Specialist Software Engineer"}
+        - {from: "Mär 2023", to: "Mär 2025", title: "Software Engineer"}
+      skills: ["Docker", "Jira", "Linux"]
+      responsibilities:
+        - initiative: "Modularisierungs-Team - 2 Personen"
+          technologies: ["PHP", "Symfony", "Python", "MySQL"]
+          tasks:
+            - "Analysieren von Architektur- und Qualitätsanforderungen"
+            - "Visualisieren der Codebasis-Struktur"
+            - "Definieren der Zielarchitektur"
+            - "Aufbrechen des Monolithen"
+        - initiative: "Webserver Software-Team - 3 Personen"
+          technologies: ["Bash", "GitLab CI/CD", "Linux", "Python", "SQLite"]
+          tasks:
+            - "Wartung der Software für die Shared-Hosting-Plattform"
+            - "Neugestaltung des Build- und Release-Prozesses"
+        - initiative: "Backend Entwicklungs-Team - 12 Personen"
+          technologies: ["PHP", "OpenAPI", "MySQL"]
+          tasks:
+            - "Entwicklung von Features in allen Phasen des Software-Entwicklungszyklus"
+            - "Entwurf und Implementierung von APIs"
+            - "Überprüfung von Merge Requests"
+            - "Einarbeitung von Kolleg:innen"
+    - company: "Diakonie Flüchtlingsdienst"
+      link: "https://www.diakonie.at/ueber-uns/traeger-diakonischer-arbeit/diakonie-eine-welt/diakonie-fluechtlingsdienst"
+      color_bg: "#05a1e4"
+      color_fg: "#fefefe"
+      positions:
+        - {from: "Jan 2017", to: "Apr 2017", title: "First-Level IT-Support"}
+        - {from: "Dez 2015", to: "Aug 2016", title: "Zivildiener First-Level IT-Support"}
+      responsibilities:
+        - initiative: "IT-Abteilung - 9 Personen"
+          technologies: ["Windows", "Windows Server", "Linux Server"]
+          tasks:
+            - "IT-Support für alle Diakonie Flüchtlingsheime in Österreich"
+            - "Gelegentlich auch Second-Level-Aufgaben"
+
+projects:
+  - name: "Homelab"
+    link: null
+    description: "Ich hoste ein paar meiner Websites, meinen Mailserver, meinen Passwort-Manager und viele andere Dienste selbst. Warum es sich einfach machen, wenn man sich auch mit Firewalls herumschlagen kann?"
+    technologies: ["ansible", "bash", "docker", "ipv6", "Linux", "openWRT", "opnSense", "proxmox", "wireshark"]
+  - name: "yanik-thurner/nvim-copy-mode"
+    link: "https://github.com/yanik-thurner/nvim-copy-mode"
+    description: "Ein Tmux plugin welches den default Copy-Mode durch ein Neovim Terminal ersetzt, wodurch man beim Kopieren alle vim movements zur Verfügung hat"
+    technologies: ["tmux", "bash", "lua"]
+  - name: "yanik-thurner/anno-chan"
+    link: "https://github.com/yanik-thurner/anno-chan"
+    description: "Ein Programm, das ich im Rahmen meiner Bachelorarbeit entwickelt habe. Es ist ein Annotations-Tool mit der Möglichkeit, PyTorch-Objekterkennungsmodelle zu integrieren und zu evaluieren. So können Schwächen aufgedeckt und das Netzwerk sowie der Datensatz iterativ angepasst werden."
+    technologies: ["Python", "PyTorch", "Qt"]
+  - name: "yanik-thurner/farm4money"
+    link: "https://github.com/yanik-thurner/farm4money"
+    description: "Ein 3D-Landwirtschaftssimulator-Spiel, das im Rahmen der Vorlesung „Computergrafik“ an der TU Wien entwickelt wurde."
+    technologies: ["C++", "GLSL", "OpenGL"]
+  #- name: "yanik-thurner/bevy_roguelike"
+  #  link: "https://github.com/yanik-thurner/bevy_roguelike"
+  #  description: "Ein 2D-Roguelike Dungeon-Crawler-Spiel, geschrieben in Rust. Man kann herumlaufen und Feinde oder Wände treffen. Yay!"
+  #  technologies: ["Bevy ECS", "Rust"]
+  #- name: "yanik-thurner/moa"
+  #  link: "https://github.com/yanik-thurner/moa"
+  #  description: "„Maps of Anime“, kurz moa, ist eine Neuimplementierung des „Maps of Computer Science“-Programms von Fried et al., um die Beziehungen von Genres japanischer Animationen zu visualisieren."
+  #  technologies: ["D3.js", "JavaScript", "Numpy", "Pandas", "Python"]
+
+education:
+  history:
+    - institution: "TU Wien"
+      link: "https://www.tuwien.at/en/"
+      program: "(Master Visual Computing)"
+      degree: "ohne Abschluss"
+      from: "2020"
+      to: "2022"
+    - institution: "TU Wien"
+      link: "https://www.tuwien.at/en/"
+      program: "Bachelor Medieninformatik und Visual Computing"
+      degree: "BSc."
+      from: "2016"
+      to: "2020"
+    - institution: "HTL Spengergasse"
+      link: "https://www.spengergasse.at/"
+      program: "Informatik"
+      degree: "Matura"
+      from: "2011"
+      to: "2015"
+
+certification:
+  - name: "iSAQB"
+    level: "Foundation"
+    description: "Certified Professional for Software Architecture"
+  - name: "Cisco CCNA (Abgelaufen)"
+    level: "1-4"
+    description: "Cisco Certified Network Associate"
+  - name: "Cisco CCNA (Abgelaufen)"
+    level: "Security"
+    description: "Cisco Certified Network Associate"
