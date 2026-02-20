@@ -1,5 +1,5 @@
 # resume
-Code used to generate my resume. If you consider hiring me - hey there you magnificent creature, welcome to this repo. Feel free to contact me via mail or Linked in. For everyone else - weird flex showing up here, but I respect it. The dog is not for sale.
+Code used to generate my resume. If you consider hiring me - hey there you magnificent creature, welcome to this repo. Feel free to contact me via mail or LinkedIn. For everyone else - weird flex showing up here, but I respect it. The dog is not for sale.
 
 ![example image](https://github.com/yanik-thurner/resume/blob/main/out/yanik-thurner-better-resume-public.png?raw=true)
 
