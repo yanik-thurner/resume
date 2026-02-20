@@ -15,7 +15,8 @@
     file_content = file_content.replace("<svg", "<svg " + fill_attribute);
   }
 
-  image.decode(file_content, width: width)
+  let content_as_bytes = bytes(file_content);
+  image(content_as_bytes, width: width)
 }
 
 
@@ -34,12 +35,12 @@
   let svg_content = "<text dominant-baseline='hanging' fill='" + font_color + "' font-weight='" + repr(font_weight) +"' font-size='" + repr(font_size) + "' textLength='" + repr(svg_width) + "'>" + str(content) + "</text>";
   let svg_end = "</svg>";
 
+  let content_as_bytes = bytes(svg_start + svg_content + svg_end);
   box(fill: none)[#grid( 
     columns: (svg_width, 0pt, 0pt),
     align: (top, top, top),
     hide(text_content),
     place(dx: -svg_width, hidden_text),
-    place(dx: -svg_width, dy: -20%, image.decode(svg_start + svg_content + svg_end, width: svg_width, height: svg_height)),
-   
+    place(dx: -svg_width, dy: -20%, image(content_as_bytes, width: svg_width, height: svg_height)),
   )];
 }
