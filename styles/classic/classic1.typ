@@ -48,9 +48,9 @@
   let contact-section(personal_data) = {
     show: stack(dir: ttb,
       spacing: 0.9em,
-      text(personal_data.mail),
+      link("mailto:" + personal_data.mail)[#text(personal_data.mail)],
       link("https://" + personal_data.website)[#text(personal_data.website)],
-      text(personal_data.phone),
+      link("tel:" + personal_data.phone.replace(" ", ""))[#text(personal_data.phone)],
       text(personal_data.location),
     );
   };

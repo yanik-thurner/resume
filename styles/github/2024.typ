@@ -168,11 +168,12 @@
 }
 
 /*~~ ELEMENTS - FIRST-PAGE MAIN ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#let file-table-entry(icon_name: "file", file_name: "file.txt", commit_message: "fixed bug", commit_date: "just now") = {
+#let file-table-entry(icon_name: "file", file_name: "file.txt", commit_message: "fixed bug", commit_link: none, commit_date: "just now") = {
+  let commit_content = text(fill: color_font_mid, weight: 400, str(commit_message));
   return (
     box(baseline: -0.3em)[#svg(icon_name, width: 1.1em, fill: color_font_mid)],
     text(fill: color_font_dark, weight: 400, str(file_name)),
-    text(fill: color_font_mid, weight: 400, str(commit_message)), 
+    if (commit_link == none) { commit_content } else { link(commit_link, commit_content)},
     text(fill: color_font_mid, weight: 400, str(commit_date)), table.hline()
   );
 }
@@ -466,8 +467,8 @@
       table.hline(), 
       ..file-table-entry(file_name: "name.txt", commit_message: str(personal_data.names.values().flatten().join(" "))),
       ..file-table-entry(file_name: "birthdate.txt", commit_message: str(personal_data.birthdate)),
-      ..file-table-entry(file_name: "phone.txt", commit_message: str(personal_data.phone)),
-      ..file-table-entry(file_name: "mail.txt", commit_message: str(personal_data.mail)),
+      ..file-table-entry(file_name: "phone.txt", commit_message: str(personal_data.phone), commit_link: "tel:" + personal_data.phone.replace(" ", "")),
+      ..file-table-entry(file_name: "mail.txt", commit_message: str(personal_data.mail), commit_link: "mailto:" + personal_data.mail),
       ..file-table-entry(file_name: "README.md", commit_message: str(template_data.read_me_message)),
     )
   )
