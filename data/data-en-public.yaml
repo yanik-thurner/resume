@@ -1,0 +1,6 @@
+personal-sensitive: &personal-sensitive
+  birthdate: "<REDACTED>"
+  phone: "<REDACTED>"
+  mail: "yanik@thurner.dev"
+  website: "thurner.dev"
+  location: "<REDACTED>"
